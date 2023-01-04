@@ -52,45 +52,7 @@
     top: 0;
     width: 100%
 }
-.header__navbar-collapse__active {
-
-}
-@media screen and (min-width: 768px) {
-    .header__navbar-toggle {
-        display: none;
-    }
-    .header__navbar-nav > li > a {
-        padding-top: 15px;
-        padding-bottom: 15px;
-    }
-    .header__navbar-collapse {
-        height: auto!important;
-    }
-}
-@media screen and (max-width: 767px){
-    .header__navbar-collapse {
-        position: absolute;
-        top: 100%;
-        width: 100%;
-        left: 0;
-        background: white;
-        transition: all .3s ease;
-        height: 0;
-        overflow: hidden;
-        border-bottom: 1px solid var(--document-border-color);
-    }
-    .header__navbar-nav {
-        justify-content: center;
-        flex-direction: column;
-    }
-    .header__navbar-header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 100%;
-        padding: 5px 0;
-    }
-}
+.header__navbar-collapse__active {}
 
 /*burger*/
 .header__navbar-toggle {
@@ -112,7 +74,7 @@
     position: absolute;
     height: 3px;
     width: 100%;
-    background: #3a3a3a;
+    background: var(--document-title-color);
     border-radius: 9px;
     opacity: 1;
     left: 0;
@@ -161,4 +123,41 @@
     top: 9px;
     width: 0%;
     left: 50%;
+}
+
+@media screen and (min-width: 768px) {
+    .header__navbar-toggle {
+        display: none;
+    }
+    .header__navbar-nav > li > a {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .header__navbar-collapse {
+        height: auto!important;
+    }
+}
+@media screen and (max-width: 767px){
+    .header__navbar-collapse {
+        position: absolute;
+        top: 100%;
+        width: 100%;
+        left: 0;
+        background: var(--document-background-color);
+        transition: all .3s ease;
+        height: 0;
+        overflow: hidden;
+        border-bottom: 1px solid var(--document-border-color);
+    }
+    .header__navbar-nav {
+        justify-content: center;
+        flex-direction: column;
+    }
+    .header__navbar-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding: 5px 0;
+    }
 }

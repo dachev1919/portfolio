@@ -35,6 +35,7 @@ const Projects = ({header, title, limit, customClass=''}) => {
                                 month={project.month}
                                 number={project.number}
                                 title={project.title}
+                                year={project.year}
                             />
                         )
                     })}

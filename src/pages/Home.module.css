@@ -125,6 +125,14 @@
     font-size: 32px;
     color: var(--document-title-color);
 }
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .services_block__text {
+        font-size: 12px;
+    }
+    .services_block__container {
+        padding: 20px 10px;
+    }
+}
 @media screen and (min-width: 768px) and (max-width: 991px) {
     .services_block {
         flex: 0 0 calc(50% - 30px);

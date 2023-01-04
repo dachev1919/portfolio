@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/dachev/static/css/main.ca33d5d6.css",
+    "main.js": "/dachev/static/js/main.25c08f39.js",
+    "static/media/cover.jpg": "/dachev/static/media/cover.93fbcfde4b87392deed9.jpg",
+    "static/media/fontawesome-webfont.svg?v=4.3.0": "/dachev/static/media/fontawesome-webfont.d0ba16d89d53283e819b.svg",
+    "static/media/Simple-Line-Icons.svg": "/dachev/static/media/Simple-Line-Icons.020f280b83f405cb4ac1.svg",
+    "static/media/fontawesome-webfont.ttf?v=4.3.0": "/dachev/static/media/fontawesome-webfont.45f9f92a5bfbad4be12f.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.3.0": "/dachev/static/media/fontawesome-webfont.c589f72df384e3ef078b.woff",
+    "static/media/fontawesome-webfont.eot": "/dachev/static/media/fontawesome-webfont.03605b2467d43a9f4c63.eot",
+    "static/media/Simple-Line-Icons.woff": "/dachev/static/media/Simple-Line-Icons.d25156c933f09bb78bba.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.3.0": "/dachev/static/media/fontawesome-webfont.fb685a7c7e4aae2d4d71.woff2",
+    "static/media/Simple-Line-Icons.eot": "/dachev/static/media/Simple-Line-Icons.37c20767490388888f44.eot",
+    "static/media/Simple-Line-Icons.ttf": "/dachev/static/media/Simple-Line-Icons.549254fc1514a6148dbf.ttf",
+    "index.html": "/dachev/index.html",
+    "main.ca33d5d6.css.map": "/dachev/static/css/main.ca33d5d6.css.map",
+    "main.25c08f39.js.map": "/dachev/static/js/main.25c08f39.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca33d5d6.css",
+    "static/js/main.25c08f39.js"
+  ]
+}

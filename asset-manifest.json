@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.8cff9c84.css",
-    "main.js": "/portfolio/static/js/main.05f4b4a0.js",
+    "main.css": "/portfolio/static/css/main.adf6c7eb.css",
+    "main.js": "/portfolio/static/js/main.12a39cce.js",
     "static/media/cover.jpg": "/portfolio/static/media/cover.93fbcfde4b87392deed9.jpg",
     "static/media/fontawesome-webfont.svg?v=4.3.0": "/portfolio/static/media/fontawesome-webfont.d0ba16d89d53283e819b.svg",
     "static/media/Simple-Line-Icons.svg": "/portfolio/static/media/Simple-Line-Icons.020f280b83f405cb4ac1.svg",
@@ -13,11 +13,11 @@
     "static/media/Simple-Line-Icons.eot": "/portfolio/static/media/Simple-Line-Icons.37c20767490388888f44.eot",
     "static/media/Simple-Line-Icons.ttf": "/portfolio/static/media/Simple-Line-Icons.549254fc1514a6148dbf.ttf",
     "index.html": "/portfolio/index.html",
-    "main.8cff9c84.css.map": "/portfolio/static/css/main.8cff9c84.css.map",
-    "main.05f4b4a0.js.map": "/portfolio/static/js/main.05f4b4a0.js.map"
+    "main.adf6c7eb.css.map": "/portfolio/static/css/main.adf6c7eb.css.map",
+    "main.12a39cce.js.map": "/portfolio/static/js/main.12a39cce.js.map"
   },
   "entrypoints": [
-    "static/css/main.8cff9c84.css",
-    "static/js/main.05f4b4a0.js"
+    "static/css/main.adf6c7eb.css",
+    "static/js/main.12a39cce.js"
   ]
 }

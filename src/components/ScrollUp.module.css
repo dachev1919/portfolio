@@ -1,0 +1,43 @@
+.scroll-up a {
+    background-color: rgba(135, 135, 135, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    color: #fff;
+    font-size: 15px;
+    line-height: 30px;
+    border-radius: 3px;
+    transition: all 0.125s ease-in-out;
+    cursor: pointer;
+}
+.scroll-up a:hover {
+    background-color: rgba(58, 58, 58, 0.5);
+}
+.scroll-up {
+    position: fixed;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s ease;
+    z-index: 999;
+    bottom: 2em;
+    right: 32px;
+}
+.scroll-up__active {
+    opacity: 1;
+    visibility: visible;
+}
+.scroll-up_shift-left {
+    right: 432px;
+}
+@media screen and (min-width: 1920px) {
+    .scroll-up_shift-left {
+        right: 432px;
+    }
+}
+@media screen and (max-width: 1919px) {
+    .scroll-up_shift-left {
+        right: calc(232px + (432 - 232) * ((100vw - 320px) / (1919 - 320)));
+    }
+}

@@ -1,0 +1,238 @@
+// Базовые настройки сетки
+@import 'grid'
+//Подключение шрифтов
+@import 'fonts'
+//Подключение цветов
+@import 'colors'
+@import 'slick'
+@import 'section/navbar'
+@import 'section/hero'
+@import "section/offer"
+@import "section/features"
+@import "section/catalog"
+@import "section/blog-list"
+@import "section/price"
+@import "section/steps"
+@import "section/reviews"
+@import "section/factory"
+@import "section/contacts"
+@import "section/questions"
+@import "section/footer"
+@import "section/before"
+
+body
+  +light
+  color: $text-color
+
+img
+  max-width: 100%
+
+.section
+  padding: 0 100px
+  &-title
+    font-size: 30px
+    +bold
+    text-align: center
+    text-transform: uppercase
+  &__title
+    margin-bottom: 100px
+
+.button-o
+  border: 2px solid $primary
+  padding: 17px 22px
+  font-size: 12px
+  text-transform: uppercase
+  color: $primary
+  background: none
+  background-color: #ffffff
+  text-decoration: none
+  +bold
+  &:hover
+    border: 2px solid rgba(80, 127, 225, 0.70)
+    color: rgba(80, 127, 225, 0.70)
+  &:active
+    border: 2px solid $primary
+    padding: 17px 22px
+    font-size: 12px
+    text-transform: uppercase
+    color: $primary
+    background: none
+
+.button
+  text-decoration: none
+  border: none
+  text-transform: uppercase
+  padding: 25px 45px
+  background-color: $primary
+  color: #ffffff
+  +bold
+  &:hover
+    cursor: pointer
+    background-color: rgba(80, 127, 225, 0.66)
+  &-fitting
+    color: $primary
+    background-color: #ffffff
+  &-add
+    background-color: lighten($primary, 10%)
+    color: #ffffff
+  &-like
+    background-color: $primary
+    height: 30px
+    width: 30px
+    border: none
+    img
+      width: 16px
+      margin-top: 4px
+
+.logo
+  &__text
+    +bold
+  &__description
+    color: $text-color-light
+
+.navbar
+  &__phone
+    color: $text-color-light
+  &__small-text
+    +bold
+    color: $text-color
+.hero
+  &__title
+    +bold
+
+.bg-secondary
+  background: linear-gradient(90deg, #f3f3f3, #e8e8e8)
+
+.menu
+  background-color: $primary
+
+.offer
+  &__title
+    +bold
+
+.checkbox
+  display: none
+  &-label
+    display: flex
+    align-items: center
+    margin-right: 40px
+    &:hover
+      cursor: pointer
+    &:before
+      content: ''
+      display: inline-block
+      font-size: 30px
+      line-height: 30px
+      width: 30px
+      height: 30px
+      border: 1px solid #dddddd
+      margin-right: 20px
+
+.blog
+  &__title
+    +bold
+  &__link-more
+    color: $primary
+
+.price
+  &-card
+    &__cost
+      +bold
+
+.contacts
+  &__link
+    color: $text-color
+
+.questions
+  &__title
+    +bold
+  &__link
+    color: $primary
+.footer
+  &__title
+    +bold
+  &__phone
+    +bold
+.input
+  border: 1px solid #dddddd
+  height: 80px
+  padding-left: 30px
+input[type="checkbox"]
+  display: none
+  &:checked + label:before
+    content: '\2713'
+    color: $primary
+    font-size: 55px
+    -webkit-transform: scale(1)
+    transform: scale(1)
+    -webkit-transition: 0.3s
+    transition: 0.3s
+.select
+  border: 1px solid #dddddd
+  width: 100%
+  height: 80px
+  position: relative
+  &:after
+    content: ''
+    position: absolute
+    top: 40%
+    transform: translateY(-50)
+    right: 20px
+    height: 20px
+    width: 20px
+    z-index: 9
+    background: url('https://www.flaticon.com/svg/static/icons/svg/32/32195.svg') no-repeat center
+    background-size: 100%
+    opacity: 0.5
+  &:hover
+    cursor: pointer
+  &__checked
+    line-height: 80px
+    padding-left: 30px
+  &__dropdown
+    position: absolute
+    top: 80px
+    width: 100%
+    background-color: #ffffff
+    border: 1px solid #dddddd
+    margin: -2px 0
+    list-style: none
+    padding: 0
+    display: none
+    &_open
+      display: block
+  &__option
+    padding: 20px
+    &:hover
+      background-color: $bg-secondary
+
+@media (max-width: 576px)
+  .button-o
+    font-size: 10px
+    margin-top: 5px
+  .section
+    padding: 60px 0
+    &-title
+      font-size: 24px
+  .features
+    &block
+      &__item
+        img
+          width: 80px
+
+@media (max-width: 500px)
+  .input
+    padding: 10px
+    height: 30px
+    font-size: 10px
+  .checkbox
+    &-label
+      display: contents
+      text-align: center
+      font-size: 10px
+  .form
+    &__button
+      height: 30px
+      padding: 10px
+      font-size: 10px
+      width: 100%

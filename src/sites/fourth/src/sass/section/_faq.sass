@@ -1,0 +1,72 @@
+.faq
+  width: 100%
+  min-height: 761px
+  background: url("../img/faq/faq-bg.png") center center/cover no-repeat
+  .container
+    .row
+      &:last-child
+        padding-bottom: 100px
+  &_btn
+    position: relative
+    height: 100%
+    width: 100%
+    padding: 0
+    background-color: #ff4538
+    border: none
+    &-text
+      display: flex
+      align-items: center
+      padding-left: 19px
+    &:focus
+      outline: none
+    &-icon
+      padding-right: 27px
+      font-size: 40px
+      position: absolute
+      right: 0
+
+  &_card
+    margin-bottom: 50px
+    max-width: 370px
+    border-radius: 4px
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.1)
+    background-color: #ff4538
+    &-body
+      padding-left: 19px
+      padding-bottom: 22px
+      color: #ffffff
+      font-size: 20px
+      font-weight: 300
+      line-height: 34px
+      opacity: 0.8
+    &-header
+      height: 76px
+      button
+        span
+          color: #ffffff
+          font-size: 24px
+          font-weight: 300
+          text-decoration: none
+        .material-icons-add_circle
+          font-size: 40px
+
+@media (max-width: 991px)
+  .faq
+    &_card
+      &-header
+        height: 46px
+        button
+          span
+            font-size: 14px
+            .material-icons-add_circle
+              font-size: 22px
+      &-body
+        font-size: 12px
+        line-height: 17px
+@media (max-width: 992px)
+@media (max-width: 768px)
+  div.faq_card
+    margin: 2px auto
+    max-width: 270px
+
+@media (max-width: 576px)

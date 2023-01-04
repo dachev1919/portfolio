@@ -1,0 +1,120 @@
+.project {
+    position: relative;
+    clear: both;
+    margin: 0 auto;
+    max-width: 100%;
+    list-style: none;
+    text-align: center;
+}
+.project_wrapper {
+    border-radius: 6px;
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, .3);
+    overflow: hidden;
+}
+.project figure {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin: 0;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    background: #9e5406;
+    text-align: center;
+    cursor: pointer;
+}
+
+.project img {
+    position: relative;
+    display: block;
+    min-height: auto;
+    max-width: 100%;
+    opacity: 0.7;
+    -webkit-transition: opacity 0.35s;
+    -webkit-transition-transition: opacity 0.35s;
+}
+
+.project figure figcaption:after {
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+    -webkit-transform: scale(1, 0);
+    -webkit-transform-transform: scale(1, 0);
+}
+.project figure figcaption:before {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    -webkit-transform: scale(0, 1);
+    -webkit-transform-transform: scale(0, 1);
+}
+.project figure figcaption:after,
+.project figure figcaption:before {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    bottom: 30px;
+    left: 30px;
+    content: "";
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    -webkit-transition-transition: opacity 0.35s, transform 0.35s;
+}
+.project figure figcaption {
+    padding: 2em;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    -webkit-backface-visibility: hidden;
+    -webkit-backface-visibility-backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.project figure h2 span {
+    font-weight: 800;
+    font-size: 20px;
+}
+.project figure h2 {
+    font-size: 20px;
+    padding-top: 10%;
+    -webkit-transition: -webkit-transform 0.35s;
+    -webkit-transition-transition: transform 0.35s;
+    -webkit-transform: translate3d(0, -20px, 0);
+    -webkit-transform-transform: translate3d(0, -20px, 0);
+    color: #fff;
+    word-spacing: -0.15em;
+    font-weight: 300;
+    margin: 0;
+}
+.project figure p {
+    margin: 0;
+    letter-spacing: 1px;
+    font-size: 68.5%;
+    padding: 20px 2.5em;
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(0, 20px, 0);
+    -webkit-transform-transform: translate3d(0, 20px, 0);
+}
+.project:hover img {
+    opacity: .5;
+}
+.project:hover figure p,
+.project:hover figure h2 {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-transform-transform: translate3d(0, 0, 0);
+}
+.project:hover figure figcaption:before,
+.project:hover figure figcaption:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -webkit-transform-transform: scale(1);
+}
+@media screen and (max-width: 767px) {
+    .project {
+        margin-bottom: 15px;
+    }
+}

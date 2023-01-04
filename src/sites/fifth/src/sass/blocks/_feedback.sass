@@ -1,0 +1,56 @@
+.feedback
+  min-height: 950px
+  padding-bottom: 70px
+  &-item
+    margin-top: 70px
+    &__text
+      max-width: 650px
+      text-align: left
+      margin-left: 62px
+      line-height: 19px
+    &__content
+      margin-left: 10px
+      margin-right: 10px
+      margin-top: 100px
+      &:first-child
+        margin-top: 0
+      display: flex
+      justify-content: center
+    &__img
+      width: 169px
+      height: 169px
+      border-radius: 100%
+    &__title
+      color: #0d0d0d
+      font-size: 18px
+      font-weight: 700
+      margin-bottom: 10px
+    &__subtitle
+      color: #646464
+      font-size: 14px
+      font-weight: 500
+      margin-bottom: 19px
+    &__descr
+      color: #0d0d0d
+      font-size: 16px
+      font-weight: 500
+@media (max-width: 768px)
+  .feedback
+    &-item
+      &__content
+        margin-top: 40px
+        flex-direction: column
+      &__img
+        display: block
+        margin: 0 auto
+      &__text
+        margin-top: 10px
+        text-align: center
+        margin-left: 0px
+      &__descr
+        text-align: center
+@media (max-width: 576px)
+  .feedback
+    &-item
+      &__descr
+        font-size: 12px

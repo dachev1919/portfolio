@@ -1,0 +1,76 @@
+.advantages
+  min-height: 470px
+  background-color: #f6f6f6
+  padding: 69px 0 78px 0
+  &__wrapper
+    display: flex
+    justify-content: center
+    margin-top: 65px
+  &__item
+    width: 33%
+    text-align: center
+    padding: 0 65px
+  &__subtitle
+    color: #0d0d0d
+    font-size: 18px
+    font-weight: 500
+    margin-top: 38px
+    text-transform: uppercase
+    line-height: 10px
+  &__descr
+    color: #0d0d0d
+    font-size: 14px
+    font-weight: 500
+    margin-top: 26px
+    line-height: 17px
+    a
+      text-transform: uppercase
+      color: red
+      text-decoration: underline
+      &:hover
+        color: rgba(255, 0, 0, 0.64)
+        text-decoration: none
+  &__icon
+    &_animated
+      animation: heartbeat 2s ease infinite
+      &:hover
+        animation-play-state: paused
+
+@media (max-width: 1200px)
+  .advantages
+    &__subtitle
+      line-height: 20px
+@media (max-width: 992px)
+  .advantages
+    &__item
+      padding: 0
+@media (max-width: 768px)
+  .advantages
+    &__wrapper
+      margin-top: 40px
+    &__subtitle
+      font-size: 15px
+    &__item
+      img
+        width: 60px
+    &__subtitle
+      margin-top: 20px
+      height: 45px
+    &__descr
+      margin-top: 0
+      padding: 0 16px
+@media (max-width: 576px)
+  .advantages
+    &__wrapper
+      display: grid
+    &__item
+      width: 100%
+      margin-top: 30px
+      &:nth-child(1)
+        margin-top: 0
+    &__subtitle
+      margin-top: 0
+      font-size: 20px
+      padding-top: 10px
+    &__descr
+      font-size: 14px

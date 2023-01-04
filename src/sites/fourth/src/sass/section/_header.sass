@@ -1,0 +1,210 @@
+header
+  position: relative
+  background-color: black
+  height: 75vh
+  min-height: 1124px
+  width: 100%
+  overflow: hidden
+  video
+    position: absolute
+    top: 50%
+    left: 50%
+    min-width: 100%
+    min-height: 1124px
+    z-index: 0
+    -ms-transform: translateX(-50%) translateY(-50%)
+    -moz-transform: translateX(-50%) translateY(-50%)
+    -webkit-transform: translateX(-50%) translateY(-50%)
+    transform: translateX(-50%) translateY(-50%)
+
+  nav
+    z-index: 2
+  form
+    width: 370px
+    height: 315px
+    box-shadow: 1px 1px 13px rgba(0, 0, 0, 0.3)
+    position: relative
+    background-color: #dbdbda
+    z-index: 2
+    margin: auto
+.header
+  &_overlay
+    position: absolute
+    top: 0
+    left: 0
+    height: 100%
+    width: 100%
+    background-color: black
+    opacity: 0.5
+    z-index: 1
+  &_title
+    margin-top: 171px
+    position: relative
+    color: #ffffff
+    font-size: 34px
+    font-weight: 300
+    z-index: 1
+    text-align: center
+  &_subtitle
+    padding: 0
+    position: relative
+    color: #ffffff
+    font-size: 112px
+    font-weight: 400
+    z-index: 1
+    text-align: center
+    margin: 0 0 140px
+
+  &_form
+    &-group
+      padding-top: 30px
+    &-control
+      padding-left: 10px
+      background-color: #efefee
+      display: flex
+      justify-content: center
+      width: 310px
+      height: 51px
+      border: 1px solid #cccccc
+      border-radius: 5px
+      color: #333333
+      font-size: 20px
+      font-weight: 400
+      line-height: 22px
+      margin: auto auto 10px
+      &:last-child
+        margin-bottom: 20px
+      &:active
+        border: none
+    &-btn
+      display: block
+      margin: auto
+      border: none
+      width: 310px
+      height: 61px
+      box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.3)
+      background-color: #5dbdfe
+      text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.1)
+      color: #ffffff
+      font-size: 20px
+      font-weight: 400
+      text-transform: uppercase
+
+.dropdown
+  &-menu
+    width: 195px
+    box-shadow: 1px 1px 13px rgba(0, 0, 0, 0.3)
+  .dropdown-menu.show
+    margin-top: 50px
+  &-item
+    color: #333333
+    font-size: 20px
+    font-weight: 400
+    line-height: 37px
+.navbar
+  padding: 0
+  &-brand
+    padding: 0
+    img
+      margin: 53px 0 0 76px
+      width: 479px
+      height: auto
+  &-nav
+    margin: 65px 78px auto auto
+    right: 0
+
+.nav
+  &-item
+    margin-right: 40px
+    font-size: 24px
+    font-weight: 300
+    text-decoration: none
+    &:last-child
+      margin-right: 0
+  &-line
+    margin-top: 50px
+    width: 100%
+    height: 1px
+    background-color: #ffffff
+    opacity: 0.2
+
+@media (max-width: 1440px)
+  .nav
+    &-item
+      margin-right: 30px
+      font-size: 20px
+  .header
+    &_title
+      font-size: 30px
+    &_subtitle
+      font-size: 100px
+      margin: 0 0 120px
+@media (max-width: 1200px)
+  .navbar
+    &-brand
+      img
+        width: 350px
+        height: 35px
+  .nav
+    &-item
+      margin-right: 20px
+      font-size: 15px
+  .header
+    &_title
+      font-size: 25px
+    &_subtitle
+      font-size: 90px
+      margin: 0 0 100px
+@media (max-width: 992px)
+  .header
+    &_title
+      margin-top: 120px
+      font-size: 20px
+    &_subtitle
+      font-size: 50px
+      margin-bottom: 50px
+  .navbar
+    &-toggler
+      margin: 20px
+    &-brand
+      img
+        margin: 0 0 0 76px
+    &-nav
+      margin: 65px auto auto auto
+      text-align: center
+  .nav
+    &-line
+      display: none
+    &-item
+      margin-right: 0px
+  .dropdown
+    &-menu
+      width: 40px
+    &-item
+      line-height: normal
+      font-size: 10px
+      text-align: center
+    .dropdown-menu.show
+      display: inline-block
+      margin-top: 0
+
+//@media (min-width: 768px)
+
+@media (max-width: 576px)
+  .navbar
+    padding: 20px 0 0
+    &-brand
+      img
+        height: auto
+        width: 200px
+        margin-top: 0
+  .header
+    &_title
+      margin-top: 80px
+    &_subtitle
+      margin: 0 0 50px
+@media (max-width: 388px)
+  .navbar
+    &-brand
+      img
+        width: 120px

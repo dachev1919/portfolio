@@ -1,0 +1,34 @@
+.map
+  min-height: 717px
+  position: relative
+  padding: 49px 0
+  background: url("../img/map/map-bg.png") center ( center/cover) no-repeat
+  &_link
+    position: absolute
+    left: 50%
+    transform: translateX(-50%)
+    text-align: center
+    bottom: 49px
+    color: #1fbad6
+    font-size: 15px
+    font-weight: 400
+    line-height: 68px
+    text-transform: uppercase
+    &:hover
+      text-decoration: none
+      color: #fff
+@media (max-width: 992px)
+  .map
+    min-height: 650px
+@media (max-width: 768px)
+  .map
+    min-height: 450px
+@media (max-width: 575px)
+  .map
+    min-height: 360px
+    padding: 25px 0 30px 0
+    &_link
+      width: 200px
+      display: block
+      bottom: 30px
+      line-height: 15px

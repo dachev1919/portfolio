@@ -1,0 +1,42 @@
+.switcher {
+    position: relative;
+    padding: 10px 15px;
+    margin-bottom: 30px;
+}
+.switcher_wrapper {
+    width: 51px;
+    height: 26px;
+    background: #202020;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.switcher_input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.switcher_icon {
+    display: flex;
+    padding: 4px 5px;
+    z-index: 2;
+}
+.switcher_dark .switcher_wrapper .switcher_button {
+    transform: translateX(calc(100% + 1px));
+}
+.switcher_button {
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 1px;
+    z-index: 1;
+    transition: all .3s ease;
+}

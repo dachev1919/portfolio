@@ -1,0 +1,86 @@
+.contacts {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contacts_wrapper {
+    width: 320px;
+}
+.contact:not(:last-child) {
+    margin-bottom: 50px;
+}
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact_icon-right .contact_icon {
+    margin-left: 20px;
+}
+.contact_icon-left .contact_icon {
+    margin-right: 20px;
+}
+.contact_icon {
+    border: 1px solid var(--document-title-color);
+    color: var(--document-title-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 40px;
+    min-height: 40px;
+    border-radius: 3px;
+    transition: all .3s ease;
+    font-size: 16px;
+}
+.contact_info p {
+    display: flex;
+    flex: 0 0 auto;
+}
+.contact_info {
+    text-decoration: none;
+    color: var(--document-title-color);
+    transition: all .2s ease;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.contact_icon-right .contact_info:after,
+.contact_icon-left .contact_info:before {
+    content: "";
+    width: calc(100%);
+    height: 1px;
+    background: rgba(135, 135, 135, 0.5);
+    display: flex;
+    flex: 1 1 auto;
+    transition: all .2s ease;
+}
+.contact:hover .contact_icon,
+.contact:hover .contact_info:after {
+    margin-left: 10px;
+}
+.contact:hover .contact_icon,
+.contact:hover .contact_info:before {
+    margin-right: 10px;
+}
+.contact_icon-right .contact_info:after {
+    margin-left: 20px;
+}
+.contact_icon-left .contact_info:before {
+    margin-right: 20px;
+}
+.contact:hover .contact_icon {
+    color: var(--primary);
+}
+.contact:hover .contact_info {
+    color: #3a3a3a;
+}
+html[data-theme='dark'] .contact:hover .contact_info {
+    color: #adadad;
+}
+@media screen and (max-width: 576px) {
+    .contacts_wrapper {
+        padding: 0 15px;
+    }
+}

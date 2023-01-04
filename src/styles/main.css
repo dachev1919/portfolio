@@ -1,0 +1,122 @@
+:root {
+    --document-background-color: #fff;
+    --document-secondary-background-color: #f5f5f5;
+    --document-text-color: #666;
+    --document-title-color: #222;
+    --document-border-color: #f5f5f5;
+    --primary: #E7746F;
+}
+html[data-theme='dark'] {
+    --document-background-color: #1f1f1f;
+    --document-secondary-background-color: #171717;
+    --document-text-color: #fff;
+    --document-title-color: #dcdcdc;
+    --document-border-color: #2d2d2d;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font: 300 14px/1.8 "Raleway", sans-serif;
+    color: var(--document-text-color);
+}
+h1, h2, h3, h4, h5,h6 {
+    font: 700 40px/1.2 Raleway, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin: 5px 0 5px;
+    color: var(--document-title-color);
+}
+h2 {
+    font-size: 30px;
+    margin: 0 0 30px;
+}
+h3 {
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin: 0 0 5px;
+}
+.text-left {
+    text-align: left!important;
+}
+
+.dpfblock {
+    padding: 120px 0;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    background: var(--document-background-color);
+}
+.dpfblock_gray {
+    background: var(--document-secondary-background-color);
+}
+.dpfblock_title {
+    font-weight: 800;
+}
+.dpfblock_line {
+    background: rgba(135, 135, 135, 0.5);
+    width: 100px;
+    height: 1px;
+    margin: 30px auto;
+}
+.dpfblock_subtitle {
+    font-family: Raleway, "Times New Roman", Times, sans-serif;
+    font-style: normal;
+    font-size: 18px;
+}
+.dpfblock_header {
+    text-align: center;
+    margin: 0 0 60px;
+}
+.dpfblock_paragraph {
+    text-indent: 30px;
+}
+.dpfblock_enum {
+    margin-left: 45px;
+    display: block;
+    text-indent: 0;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: #fff;
+    border-color: #b2b2b2;
+}
+::-webkit-scrollbar-thumb {
+    width: 6px;
+    background-color: #3a3a3a;
+}
+::-webkit-scrollbar-track {
+    border-color: #b2b2b2;
+    background-color: #fff;
+}
+
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}

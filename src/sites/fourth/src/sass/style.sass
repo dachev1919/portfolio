@@ -1,0 +1,90 @@
+@import "grid"
+@import "fonts"
+@import "section/header"
+@import "section/about"
+@import "section/features"
+@import "section/advantages"
+@import "section/testimonials"
+@import "section/ourTeam"
+@import "section/faq"
+@import "section/workInfo"
+@import "section/images"
+@import "section/latest"
+@import "section/partners"
+@import "section/footer"
+
+
+body
+  background-color: #efefee
+.round_img
+  display: block
+  border-radius: 100%
+  width: 100px
+  height: 100px
+  margin: auto
+.section
+  &_title
+    padding: 133px 0 38px 0
+    margin: 0
+    text-align: center
+    color: #333333
+    font-size: 45px
+    font-weight: 400
+  &_subtitle
+    text-align: center
+    color: #333333
+    opacity: 0.8
+    font-size: 20px
+    font-weight: 400
+
+  &_rect
+    width: 90px
+    height: 90px
+    background-color: #5dbdfe
+    border-radius: 100%
+    display: flex
+    justify-content: center
+    align-items: center
+.text-block
+  width: 250px
+  margin: 50px
+#go-top
+  position: fixed
+  bottom: 25px
+  right: 70px
+  width: 51px
+  height: 51px
+  box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.1)
+  background-color: #5dbdfe
+  text-align: center
+  align-items: center
+  cursor: pointer
+  border-radius: 100%
+  color: white
+#go-top:hover
+  text-decoration: none
+  background: rgba(93, 189, 254, 0.80)
+  color: white
+.material-icons-expand_less
+  background-color: white
+  font-size: 35px
+@media (max-width: 1200px)
+  .section
+    &_title
+      padding: 70px 0 30px 0
+    &_subtitle
+
+
+@media (max-width: 991px)
+  .section
+    &_title
+      font-size: 40px
+    &_subtitle
+      font-size: 16px
+    &_rect
+      width: 60px
+      height: 60px
+
+@media (max-width: 576px)
+  #go-top
+    display: none

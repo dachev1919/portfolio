@@ -1,0 +1,68 @@
+.latest
+  &-card
+    position: relative
+    max-width: 570px
+    min-height: 350px
+    &_image
+      border: none
+      margin-left: -4px
+      margin-top: -4px
+      display: block
+      height: auto
+      width: 100%
+    &_tag
+      position: absolute
+      bottom: 61px
+      left: 34px
+      font-size: 16px
+      font-weight: 400
+      color: #ffffff
+    &_link
+      &:hover
+        .latest-card
+          span
+            display: block
+          &_buttons
+            display: flex
+    &_text
+      color: white
+      position: absolute
+      font-size: 24px
+      font-weight: 400
+      bottom: 29px
+      left: 34px
+    &_buttons
+      border-radius: 3px
+      display: none
+      position: absolute
+      top: 0
+      left: 0
+      left: -2px
+      min-height: 98%
+      min-width: 99%
+      background-image: linear-gradient(to top, rgba(51, 51, 51, 0.7) 0%, rgba(51, 51, 51, 0) 56%, rgba(51, 51, 51, 0) 100%)
+      opacity: 0.6
+@media (max-width: 1200px)
+  .latest-card
+    &_buttons
+      min-height: 79%
+  .latest
+    &-card
+      margin-bottom: 0px
+@media (max-width: 992px)
+  .latest-card
+    &_buttons
+      min-height: 58%
+    &_tag
+      font-size: 10px
+    &_text
+      font-size: 14px
+
+@media (max-width: 768px)
+  .latest-card
+    &_buttons
+      min-height: 89%
+@media (max-width: 576px)
+  .latest-card
+    &_buttons
+      min-height: 94%

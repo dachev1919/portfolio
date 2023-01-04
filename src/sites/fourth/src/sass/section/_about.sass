@@ -1,0 +1,49 @@
+
+.about
+  box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.1)
+  width: 100%
+  background-color: #ffffff
+  min-height: 844px
+  padding: 0 0 126px 0
+  &_block
+    margin-bottom: 66px
+    display: flex
+    justify-content: center
+    //align-items: center
+  &_icons
+    color: #ffffff
+    font-size: 60px
+    margin: auto
+
+  &_subtitle
+    color: #333333
+    font-size: 24px
+    font-weight: 400
+  &_text
+    word-wrap: break-word
+    color: #333333
+    font-size: 20px
+    font-weight: 300
+  &_descr
+    margin-left: 29px
+  .row
+    margin-top: 67px
+
+@media (max-width: 1200px)
+  .about
+    &_subtitle
+      font-size: 20px
+    &_text
+      font-size: 16px
+@media (max-width: 992px)
+  .about
+    &_subtitle
+      letter-spacing: normal
+      font-size: 17px
+    &_text
+      opacity: 0.9
+      font-size: 11px
+    &_icons
+      font-size: 40px
+
+@media (max-width: 576px)

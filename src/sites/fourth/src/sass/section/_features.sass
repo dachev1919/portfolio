@@ -1,0 +1,51 @@
+.features
+  min-height: 844px
+  width: 100%
+  &_block
+    margin-bottom: 66px
+    display: flex
+    justify-content: left
+  &_icon
+    width: 90px
+    height: 90px
+    display: flex
+    justify-content: normal
+    align-items: baseline
+    span
+      opacity: 0.2
+      font-size: 53px
+      margin-top: -15px
+  &_subtitle
+    padding-bottom: 41px
+    color: #333333
+    font-size: 24px
+    font-weight: 400
+  &_text
+    color: #333333
+    font-size: 20px
+    font-weight: 300
+    line-height: 34px
+  &_top-subtitle
+    margin-bottom: 72px
+  &_img
+
+@media (max-width: 1200px)
+  .features
+    .row
+      justify-content: center
+      .col-md-6
+        display: contents
+    &_img
+      display: none
+    &_block
+      min-width: 500px
+    &_subtitle
+      padding-bottom: 0
+
+@media (max-width: 992px)
+
+@media (max-width: 576px)
+  .features
+    &_block
+      min-width: 300px
+    &_text

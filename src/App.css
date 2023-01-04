@@ -1,0 +1,17 @@
+.App {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    transition: all .3s ease;
+}
+
+@media screen and (min-width: 1920px) {
+    .App_shift-left {
+        left: -400px;
+    }
+}
+@media screen and (max-width: 1919px) {
+    .App_shift-left {
+        left: calc(-200px + (-400 - -200) * ((100vw - 320px) / (1919 - 320)));
+    }
+}

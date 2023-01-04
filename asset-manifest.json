@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dachev/static/css/main.ca33d5d6.css",
-    "main.js": "/dachev/static/js/main.25c08f39.js",
+    "main.js": "/dachev/static/js/main.99b909e8.js",
     "static/media/cover.jpg": "/dachev/static/media/cover.93fbcfde4b87392deed9.jpg",
     "static/media/fontawesome-webfont.svg?v=4.3.0": "/dachev/static/media/fontawesome-webfont.d0ba16d89d53283e819b.svg",
     "static/media/Simple-Line-Icons.svg": "/dachev/static/media/Simple-Line-Icons.020f280b83f405cb4ac1.svg",
@@ -14,10 +14,10 @@
     "static/media/Simple-Line-Icons.ttf": "/dachev/static/media/Simple-Line-Icons.549254fc1514a6148dbf.ttf",
     "index.html": "/dachev/index.html",
     "main.ca33d5d6.css.map": "/dachev/static/css/main.ca33d5d6.css.map",
-    "main.25c08f39.js.map": "/dachev/static/js/main.25c08f39.js.map"
+    "main.99b909e8.js.map": "/dachev/static/js/main.99b909e8.js.map"
   },
   "entrypoints": [
     "static/css/main.ca33d5d6.css",
-    "static/js/main.25c08f39.js"
+    "static/js/main.99b909e8.js"
   ]
 }

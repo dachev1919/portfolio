@@ -2,10 +2,13 @@ import projects from "../data/projects.json";
 import Project from "../components/Project";
 import Header from "../components/Header";
 import { useLocation } from "react-router-dom";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import styles from './Projects.module.css';
+import arrowUp from '../img/arrow-up.svg';
+import arrowDown from '../img/arrow-down.svg';
 
 const Projects = ({header, title, limit, customClass=''}) => {
+    const [projectList, setProjectList] = useState([...projects].reverse());
     const pathname = useLocation();
 
     useEffect(() => {
@@ -20,10 +23,14 @@ const Projects = ({header, title, limit, customClass=''}) => {
                     <div className='dpfblock_header wow fadeInUp'>
                         <h2 className='dpfblock_title'>Projects</h2>
                         <div className='dpfblock_line' />
+                        <div className={`${styles['projects__filter']}`}>
+                            <button className={`${styles['projects__filter-up']}`} onClick={() => setProjectList([...projects].reverse())}>Newest <img src={arrowUp} alt=""/></button>
+                            <button className={`${styles['projects__filter-down']}`} onClick={() => setProjectList([...projects])}>Oldest <img src={arrowDown} alt=""/></button>
+                        </div>
                     </div>
                 )}
                 <div className={`${styles['portfolio_projects']}`}>
-                    {projects.map((project, index) => {
+                    {projectList.map((project, index) => {
                         if (limit <= index && limit !== false) return false;
 
                         return (

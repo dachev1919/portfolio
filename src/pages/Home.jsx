@@ -85,7 +85,7 @@ const Home = ({scrollLink, smoothScroll}) => {
                                         More than three years of website layout experience,
                                         two years of commercial experience. Developed a lot
                                         of websites, landings, etc. using: html5/css3/JavaScript(React.js/Typescript);
-                                        libraries such as jQuery, Bootstrap 4-5; Sass/Scss preprocessors;
+                                        jQuery/Bootstrap 4-5; Sass/Scss preprocessors;
                                         gulp task manager and various add-ons.
                                     </div>
                                 </div>

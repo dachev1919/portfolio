@@ -1,11 +1,11 @@
-import projects from "../data/projects.json";
+import projects from "../common/data/projects.json";
 import Project from "../components/Project";
 import Header from "../components/Header";
 import { useLocation } from "react-router-dom";
 import { useEffect, useState } from "react";
 import styles from './Projects.module.css';
-import arrowUp from '../img/arrow-up.svg';
-import arrowDown from '../img/arrow-down.svg';
+import arrowUp from '../common/img/arrow-up.svg';
+import arrowDown from '../common/img/arrow-down.svg';
 
 const Projects = ({header, title, limit, customClass=''}) => {
     const [projectList, setProjectList] = useState([...projects].reverse());

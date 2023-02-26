@@ -84,9 +84,9 @@ const Home = ({scrollLink, smoothScroll}) => {
                                     <div className={styles['services_block__text']}>
                                         More than three years of website layout experience,
                                         two years of commercial experience. Developed a lot
-                                        of websites, landings, etc. using: html5/css3/JavaScript(React.js/Typescript);
-                                        jQuery/Bootstrap 4-5; Sass/Scss preprocessors;
-                                        gulp task manager and various add-ons.
+                                        of websites, landings, etc. using: React.js, Typescript, JavaScript, css3, html5;
+                                        Tailwind, Bootstrap 4-5; Sass, Scss preprocessors;
+                                        yarn, npm and various add-ons.
                                     </div>
                                 </div>
                             </div>
@@ -150,16 +150,22 @@ const Home = ({scrollLink, smoothScroll}) => {
                             <h2 className='dpfblock_title'>About me</h2>
                             <div className='dpfblock_line' />
                             <div className='dpfblock_subtitle dpfblock_paragraph wow slideInRight text-left'>
-                                My name is Oleg, I am 23 years old. This year I graduated from Admiral Makarov
-                                National University of Shipbuilding with bachelor's degree and continued my studies
-                                to get master's degree in "software engineering". Began studies at Nikolaev Construction
-                                College of Kyiv National University of Civil Engineering and Architecture, received an associate degree in software engineering.
+                                My name is Oleg, I am 23 years old. This year I graduated from Admiral Makarov National University of
+                                Shipbuilding with a bachelor's degree in software engineering and am now pursuing a master's degree in
+                                the same field. Prior to pursuing my bachelor's degree, I earned an associate degree in software engineering from
+                                Mykolaiv Construction College of Kyiv National University of Civil Engineering and Architecture.
                             </div>
                             <div className='dpfblock_subtitle dpfblock_paragraph wow slideInRight text-left'>
-
-                                From November 2020 till December 2022 I worked as full-stack developer. My duties included:
-                                development of themes, modules and add-ons for PrestaShop(using HTML, CSS, JS, PHP/Smarty),
-                                followed by support(work with clients) and since December 2021 implementing themes, add-ons for Shopify.
+                                From November 2020 to December 2022, I worked as a full-stack developer. My responsibilities included developing
+                                themes, modules, and add-ons for PrestaShop using HTML5, CSS3, JS and jQuery, PHP, and Smarty. I also provided
+                                support to clients and, since December 2021, have been involved in implementing themes and add-ons for Shopify.
+                            </div>
+                            <div className='dpfblock_subtitle dpfblock_paragraph wow slideInRight text-left'>
+                                During my time as a full-stack developer, I collaborated with a team of developers and designers to deliver high-quality
+                                themes, modules, and add-ons for PrestaShop. I was responsible for writing clean, maintainable code using a variety
+                                of programming languages and frameworks. Additionally, I provided technical support to clients, resolving issues related
+                                to the software and ensuring their satisfaction with our products. Since transitioning to Shopify, I have applied my skills
+                                to create compelling themes and add-ons that enhance the functionality of the platform.
                             </div>
                             <div className='dpfblock_subtitle dpfblock_paragraph wow slideInRight text-left'>
                                 The result of my work from November 1, 2020 to December 1, 2022:
@@ -174,22 +180,23 @@ const Home = ({scrollLink, smoothScroll}) => {
                             <h2 className='dpfblock_title' style={{marginTop: '30px'}}>Professional skills</h2>
                             <div className='dpfblock_line' />
                             <p className='dpfblock_subtitle wow slideInLeft text-left'>
-                                Programming languages: JavaScript, PHP;
+                                Programming languages: JavaScript, TypeScript;
                             </p>
                             <p className='dpfblock_subtitle wow slideInLeft text-left'>
-                                Additional languages and libraries: HTML, CSS(SCSS/SASS), React, Smarty, Liquid, jQuery, Bootstrap 4/5;
+                                Additional languages and libraries: React.js, Next.js, Redux Toolkit, HTML5, CSS3,
+                                TailwindCSS/ChakraUI/MUI, Smarty, Liquid, jQuery, Bootstrap 4/5;
                             </p>
                             <p className='dpfblock_subtitle wow slideInLeft text-left'>
                                 Operating systems: Windows;
                             </p>
                             <p className='dpfblock_subtitle wow slideInLeft text-left'>
-                                Additional skills: Npm, Gulp, Git, OOP;
+                                Additional skills: Npm, Yarn, Gulp, Git, OOP;
                             </p>
                             <p className='dpfblock_subtitle wow slideInLeft text-left'>
                                 Databases: MySQL;
                             </p>
                             <p className='dpfblock_subtitle wow slideInLeft text-left'>
-                                Development tools: PhpStorm, VS Code, Sublime Text;
+                                Development tools: PhpStorm, VS Code;
                             </p>
                             <p className='dpfblock_subtitle wow slideInLeft text-left'>
                                 Algorithms: Understanding of basic algorithms;

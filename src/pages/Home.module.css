@@ -1,7 +1,7 @@
 .dpf_intro {
     height: 100vh;
     position: relative;
-    background-image: url("../img/cover.jpg");
+    background-image: url("../common/img/cover.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-color: #222;
@@ -12,7 +12,7 @@
 
 .dpf_intro__overlay {
     background-color: rgba(44, 62, 80, .3);
-    background-image: url("../img/pattern.png");
+    background-image: url("../common/img/pattern.png");
     background-repeat: repeat;
     z-index: 1;
     width: 100%;

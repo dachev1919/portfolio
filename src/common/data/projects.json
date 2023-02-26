@@ -270,5 +270,21 @@
     "href": "https://dachev1919.github.io/ecommerce-tech/",
     "image": "img/react-5.png",
     "year": "2023"
+  },
+  {
+    "month": "February",
+    "number": 12,
+    "title": "React.js",
+    "href": "https://dachev1919.github.io/conduit/",
+    "image": "img/react-6.png",
+    "year": "2023"
+  },
+  {
+    "month": "February",
+    "number": 26,
+    "title": "React.js",
+    "href": "https://dachev1919.github.io/ecommerce-coffee/",
+    "image": "img/react-7.png",
+    "year": "2023"
   }
 ]

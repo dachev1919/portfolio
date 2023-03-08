@@ -242,7 +242,7 @@
   {
     "month": "November",
     "number": 8,
-    "title": "React.js",
+    "title": "React.js | Firebase | Redux-Toolkit",
     "href": "https://dachev1919.github.io/e-market/",
     "image": "img/react-2.png",
     "year": "2022"
@@ -250,7 +250,7 @@
   {
     "month": "November",
     "number": 23,
-    "title": "React.js",
+    "title": "React.js | Redux-Toolkit | Bootstrap",
     "href": "https://dachev1919.github.io/ecommerce-pizza/",
     "image": "img/react-3.png",
     "year": "2022"
@@ -258,7 +258,7 @@
   {
     "month": "December",
     "number": 15,
-    "title": "React.js",
+    "title": "React.js | Bootstrap",
     "href": "https://dachev1919.github.io/ecommerce-nft/",
     "image": "img/react-4.png",
     "year": "2022"
@@ -266,7 +266,7 @@
   {
     "month": "January",
     "number": 18,
-    "title": "React.js",
+    "title": "React.js | Redux-Toolkit | Bootstrap",
     "href": "https://dachev1919.github.io/ecommerce-tech/",
     "image": "img/react-5.png",
     "year": "2023"
@@ -274,7 +274,7 @@
   {
     "month": "February",
     "number": 12,
-    "title": "React.js",
+    "title": "React.js | Tailwind | Redux-Toolkit",
     "href": "https://dachev1919.github.io/conduit/",
     "image": "img/react-6.png",
     "year": "2023"
@@ -282,7 +282,7 @@
   {
     "month": "February",
     "number": 26,
-    "title": "React.js",
+    "title": "React.js | Next.js | ChakraUI",
     "href": "https://dachev1919.github.io/ecommerce-coffee/",
     "image": "img/react-7.png",
     "year": "2023"
@@ -290,9 +290,17 @@
   {
     "month": "March",
     "number": 4,
-    "title": "React.js",
+    "title": "React.js | Next.js | Tailwind",
     "href": "https://dachev1919.github.io/big-cinema/",
     "image": "img/react-8.png",
+    "year": "2023"
+  },
+  {
+    "month": "March",
+    "number": 8,
+    "title": "React.js | Tailwind",
+    "href": "https://dachev1919.github.io/your-movie/",
+    "image": "img/react-9.png",
     "year": "2023"
   }
 ]

@@ -91,7 +91,7 @@
     margin: 0;
     letter-spacing: 1px;
     font-size: 68.5%;
-    padding: 20px 2.5em;
+    padding: 20px 5px;
     opacity: 0;
     -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
     transition: opacity 0.35s, transform 0.35s;
@@ -169,5 +169,8 @@
         opacity: 1;
         -webkit-transform: scale(1);
         -webkit-transform-transform: scale(1);
+    }
+    .project figure p {
+        padding: 10px 5px;
     }
 }
